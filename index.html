@@ -6,14 +6,20 @@
     </head>
     <body>
         <div>
-            <ul>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="advanced.html">Advanced Search</a></li>
+            <ul class="navbar">
+                <li class="navbar-item"><a href="images.html">Images</a></li>
+                <li class="navbar-item"><a href="advanced.html">Advanced Search</a></li>
             </ul>
+        <div class="centered-div">
+            <img height="92" width="272" src="assets/googlelogo.png" alt="Google Logo">
+        </div>
         </div>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <input class="rounded-input" type="text" name="q">
+            <div class="centered-div">
+                <input class="search-button" type="submit" value="Google Search">
+                <input class="search-button" type="submit" value="I'm Feeling Lucky">
+            </div>
         </form>
     </body>
 </html>
